@@ -1,0 +1,26 @@
+{
+   "manifest_version": 2,
+   "name": "SpeedWhatsapp",
+   "version": "0.01",
+   "description": "extensão acelerar audios ou slowmotion",
+   "author": "leandro falcao",
+   "icons": {
+      "16": "/img/started16.png",
+      "32": "/img/started32.png",
+      "48": "/img/started48.png",
+      "128": "/img/started128.png"
+   },
+   "content_scripts": [
+      {
+         "matches": [
+            "https://web.whatsapp.com/"
+         ],
+         "css": [
+            "style.css"
+         ],
+         "js": [
+            "main.js"
+         ]
+      }
+   ]
+}
