@@ -1,7 +1,7 @@
 {
    "manifest_version": 2,
    "name": "SpeedWhatsapp",
-   "version": "0.01",
+   "version": "1.01",
    "description": "extensão acelerar audios ou slowmotion",
    "author": "leandro falcao",
    "icons": {

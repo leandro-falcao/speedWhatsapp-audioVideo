@@ -19,6 +19,8 @@
 .flex {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+
   max-width: 100%;
 }
 
@@ -59,4 +61,30 @@
 .content-header :nth-child(4) {
   display: flex;
   flex-direction: column;
+}
+
+.containerButtons{
+  display: grid;
+}
+.containerButtons > button {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+.containerButtons :nth-child(1){
+  background-color: #8d8d8d;
+  padding-right: 17%;
+}
+
+.containerButtons :nth-child(2){
+
+}
+
+.containerButtons :nth-child(3){
+  background-color: rgb(192 114 34);
+}
+
+.containerButtons :nth-child(4){
+  background-color: rgb(73 13 129);
 }
